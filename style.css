@@ -14,10 +14,24 @@ th, td{
 .team{
     width: 20%;
 }
-h3{
+h3, h4{
     margin-top: 2px;
     margin-bottom: 0;
 }
 .table-head{
     background-color: lightgrey;
+}
+.winning-team{
+    background-color: lightgreen;
+}
+.losing-team{
+    background-color: lightsalmon;
+}
+.result-win{
+    color:green;
+    font-weight: 700;
+}
+.result-loss{
+    color:red;
+    font-weight: 700;
 }
