@@ -5,7 +5,7 @@ let team
 for (let i = 0; i < teamArray.length; i++) {
   currentCell = teamArray[i]
   team = currentCell.textContent
-  if (team === 'Vegas') {
+  if (team === 'Vegas' || team === 'Dallas' || team === 'Carolina') {
     currentCell.classList.add('winning-team')
   } else if (team === 'test') {
     currentCell.classList.add('losing-team')
