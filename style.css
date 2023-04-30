@@ -31,9 +31,15 @@ h3, h4{
     color:green;
     font-weight: 700;
 }
+.result-win::before{
+    content:'WIN';
+}
 .result-loss{
     color:red;
     font-weight: 700;
+}
+.result-loss::before{
+    content: 'LOSS';
 }
 
 @media (max-width: 450px) {
